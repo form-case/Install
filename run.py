@@ -8,7 +8,7 @@ if (
     or (sys.version_info[0] == 3 and sys.version_info[1] <= 5)
 ):
     # Do not import any classes because they can contain not supported syntax
-    # for older python versions. (i.e. avoid SyntaxError on imports)
+    # for older python versions. (i.e. avoid SyntaxError on imports.)
     message = (
         '╔══════════════════════════════════════════════════════╗\n'
         '║                                                      ║\n'
